@@ -1,0 +1,51 @@
+@media only screen and (max-width: 425px) {
+
+    .btn-primary,
+    .btn-secondary {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}
+
+.btn-primary {
+    background: #FF9900;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: rgb(151, 103, 31);
+    border: none;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    border: 1px solid #BCD0E5;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.btn-secondary:hover {
+    border: 1px solid rgb(107, 125, 143);
+    background: none;
+    color: rgb(17, 36, 51);
+}
+
+.section-herobwa h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.section-herobwa p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+    color: #2F281E;
+}
